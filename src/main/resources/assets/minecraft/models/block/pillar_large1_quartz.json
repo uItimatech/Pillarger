@@ -1,0 +1,10 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "parent": "block/log_large1",
+    "textures": {
+        "side1": "minecraft:block/quartz_pillar",
+        "side2": "pillarger:block/pillar_large_quartz",
+        "end": "pillarger:block/pillar_top_large1_quartz",
+        "particle": "pillarger:block/pillar_large_quartz"
+    }
+}

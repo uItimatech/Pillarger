@@ -1,0 +1,154 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "variant": "0",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/warped_stem"
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_warped"
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_warped"
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_warped"
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_warped"
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/warped_stem",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_warped",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_warped",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_warped",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_warped",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/warped_stem",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_warped",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_warped",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_warped",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_warped",
+                "x": 90
+            }
+        }
+    ]
+}

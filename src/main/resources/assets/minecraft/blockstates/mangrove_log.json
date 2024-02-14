@@ -1,0 +1,154 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "variant": "0",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/mangrove_log_horizontal"
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_mangrove"
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_mangrove"
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_mangrove"
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_mangrove"
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/mangrove_log_horizontal",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_mangrove",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_mangrove",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_mangrove",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_mangrove",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/mangrove_log_horizontal",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large1_mangrove",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large2_mangrove",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large3_mangrove",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/log_large4_mangrove",
+                "x": 90
+            }
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "parent": "block/log_large4",
+    "textures": {
+        "side1": "minecraft:block/purpur_pillar",
+        "side2": "pillarger:block/pillar_large_purpur",
+        "end": "pillarger:block/pillar_top_large4_purpur",
+        "particle": "pillarger:block/pillar_large_purpur"
+    }
+}

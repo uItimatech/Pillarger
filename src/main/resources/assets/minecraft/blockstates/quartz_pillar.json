@@ -1,0 +1,154 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "variant": "0",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/quartz_pillar_horizontal"
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large1_quartz"
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large2_quartz"
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large3_quartz"
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large4_quartz"
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/quartz_pillar_horizontal",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large1_quartz",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large2_quartz",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large3_quartz",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large4_quartz",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/quartz_pillar_horizontal",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large1_quartz",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large2_quartz",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large3_quartz",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/pillar_large4_quartz",
+                "x": 90
+            }
+        }
+    ]
+}

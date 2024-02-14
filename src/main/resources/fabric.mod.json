@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "pillarger",
+	"version": "${version}",
+	"name": "Pillarger",
+	"description": "Makes logs and pillar block connect to each other in 2x2 patterns.",
+	"authors": [
+		"ultimatech"
+	],
+	"contact": {
+		"homepage": "https://discord.gg/JKjdKKP",
+		"sources": "https://github.com/uItimatech/Pillarger",
+		"issues": "https://github.com/uItimatech/Pillarger/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/pillarger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.ultimatech.pillarger.Pillarger"
+		]
+	},
+	"mixins": [
+		"pillarger.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"echoingwilds": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.gg/jEGF5fb"
+			}
+		}
+	}
+}

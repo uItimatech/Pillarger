@@ -1,0 +1,85 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "textures": {
+        "side1": "#side1",
+        "side2": "#side2",
+        "end": "#end",
+        "particle": "#side2"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                16,
+                16
+            ],
+            "faces": {
+                "north": {
+                    "uv": [
+                        16,
+                        0,
+                        0,
+                        16
+                    ],
+                    "texture": "#side2",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#side2",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#side1",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#side1",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "#end",
+                    "cullface": "up"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        16,
+                        16,
+                        0
+                    ],
+                    "texture": "#end",
+                    "cullface": "down"
+                }
+            }
+        }
+    ]
+}

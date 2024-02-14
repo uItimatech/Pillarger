@@ -1,0 +1,10 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "parent": "block/log_large3",
+    "textures": {
+        "side1": "minecraft:block/dark_oak_log",
+        "side2": "pillarger:block/log_large_dark_oak",
+        "end": "pillarger:block/log_top_large3_dark_oak",
+        "particle": "pillarger:block/log_large_dark_oak"
+    }
+}

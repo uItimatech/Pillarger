@@ -1,0 +1,10 @@
+{
+    "credit": "Made using Blockbench by ultimatech",
+    "parent": "block/log_large2",
+    "textures": {
+        "side1": "minecraft:block/cherry_log",
+        "side2": "pillarger:block/log_large_cherry",
+        "end": "pillarger:block/log_top_large2_cherry",
+        "particle": "pillarger:block/log_large_cherry"
+    }
+}
