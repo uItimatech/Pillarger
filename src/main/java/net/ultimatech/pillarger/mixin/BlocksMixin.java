@@ -15,7 +15,7 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.Slice;
 
 
-@Debug(export = true)
+//@Debug(export = true)
 @Mixin(Blocks.class)
 public class BlocksMixin {
 
