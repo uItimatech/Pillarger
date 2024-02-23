@@ -17,7 +17,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "net.ultimatech.pillarger.Pillarger"
+			"net.ultimatech.pillarger.Pillarger"
 		]
 	},
 	"mixins": [

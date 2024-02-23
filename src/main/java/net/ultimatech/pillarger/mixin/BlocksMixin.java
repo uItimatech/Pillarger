@@ -7,6 +7,7 @@ import net.minecraft.util.math.Direction;
 
 import net.ultimatech.pillarger.api.block.ConnectedLargePillarBlock;
 
+import org.spongepowered.asm.mixin.Debug;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.injection.At;
@@ -14,24 +15,19 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 import org.spongepowered.asm.mixin.injection.Slice;
 
 
-//@Debug(export = true)
+@Debug(export = true)
 @Mixin(Blocks.class)
 public class BlocksMixin {
 
-    /* OLD : did not work and isn't clean
-    Inject(at = @At("HEAD"), method = "register(Ljava/lang/String;Lnet/minecraft/block/Block;)Lnet/minecraft/block/Block;", cancellable = true)
-    private static void register(String id, Block block, CallbackInfoReturnable<Block> cir) {
-        if (Objects.equals(id, "purpur_pillar")) {
-            cir.setReturnValue(Registry.register(Registries.BLOCK, id, new ConnectedLargePillarBlock((AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).instrument(Instrument.BASEDRUM).requiresTool().strength(1.5f, 6.0f)))));
-        } else if (Objects.equals(id, "quartz_pillar")) {
-            cir.setReturnValue(Registry.register(Registries.BLOCK, id, new ConnectedLargePillarBlock((AbstractBlock.Settings.create().mapColor(MapColor.OFF_WHITE).instrument(Instrument.BASEDRUM).requiresTool().strength(0.8f)))));
-        }
-        cir.setReturnValue(Registry.register(Registries.BLOCK, id, block));
-    }*/
+    @Redirect(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = {"stringValue=quartz_pillar"}, ordinal = 0)), at = @At(value = "NEW", target = "net/minecraft/block/PillarBlock", ordinal = 0))
+    private static PillarBlock QuartzPillarRedirect(AbstractBlock.Settings settings) {
+        return new ConnectedLargePillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.OFF_WHITE).instrument(Instrument.BASEDRUM).requiresTool().strength(0.8F));
+    }
 
-    //"you should Redirect the block constructor with a Slice from its id as a CONSTANT"
-
-
+    @Redirect(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = {"stringValue=purpur_pillar"}, ordinal = 0)), at = @At(value = "NEW", target = "net/minecraft/block/PillarBlock", ordinal = 0))
+    private static PillarBlock PurpurPillarRedirect(AbstractBlock.Settings settings) {
+        return new ConnectedLargePillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F));
+    }
 
     /**
      * @author ultimatech - pillarger mod
