@@ -29,11 +29,6 @@ public class BlocksMixin {
         return new ConnectedLargePillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.MAGENTA).instrument(Instrument.BASEDRUM).requiresTool().strength(1.5F, 6.0F));
     }
 
-    /*@Redirect(method = "<clinit>", slice = @Slice(from = @At(value = "CONSTANT", args = {"stringValue=cherry_log"}, ordinal = 0)), at = @At(value = "NEW", target = "net/minecraft/block/Blocks.createBambooBlock;", ordinal = 0))
-    private static PillarBlock CherryLogRedirect(AbstractBlock.Settings settings) {
-        return new ConnectedLargePillarBlock(AbstractBlock.Settings.create().mapColor(MapColor.TERRACOTTA_WHITE).sounds(BlockSoundGroup.CHERRY_WOOD).instrument(Instrument.BASS).strength(2.0F).burnable());
-    }*/
-
     /**
      * @author ultimatech - pillarger mod
      * @reason log blocks now allow for connected textures
