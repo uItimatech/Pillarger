@@ -6,7 +6,7 @@
                 "axis": "y"
             },
             "apply": {
-                "model": "minecraft:block/furled_log_horizontal"
+                "model": "minecraft:block/stripped_warped_stem"
             }
         },
         {
@@ -15,7 +15,7 @@
                 "axis": "y"
             },
             "apply": {
-                "model": "minecraft:block/log_large1_furled"
+                "model": "minecraft:block/stripped_log_large1_warped"
             }
         },
         {
@@ -24,7 +24,7 @@
                 "axis": "y"
             },
             "apply": {
-                "model": "minecraft:block/log_large2_furled"
+                "model": "minecraft:block/stripped_log_large2_warped"
             }
         },
         {
@@ -33,7 +33,7 @@
                 "axis": "y"
             },
             "apply": {
-                "model": "minecraft:block/log_large3_furled"
+                "model": "minecraft:block/stripped_log_large3_warped"
             }
         },
         {
@@ -42,7 +42,7 @@
                 "axis": "y"
             },
             "apply": {
-                "model": "minecraft:block/log_large4_furled"
+                "model": "minecraft:block/stripped_log_large4_warped"
             }
         },
         {
@@ -51,7 +51,7 @@
                 "axis": "x"
             },
             "apply": {
-                "model": "minecraft:block/furled_log_horizontal",
+                "model": "minecraft:block/stripped_warped_stem",
                 "x": 90,
                 "y": 90
             }
@@ -62,7 +62,7 @@
                 "axis": "x"
             },
             "apply": {
-                "model": "minecraft:block/log_large1_furled",
+                "model": "minecraft:block/stripped_log_large1_warped",
                 "x": 90,
                 "y": 90
             }
@@ -73,7 +73,7 @@
                 "axis": "x"
             },
             "apply": {
-                "model": "minecraft:block/log_large2_furled",
+                "model": "minecraft:block/stripped_log_large2_warped",
                 "x": 90,
                 "y": 90
             }
@@ -84,7 +84,7 @@
                 "axis": "x"
             },
             "apply": {
-                "model": "minecraft:block/log_large3_furled",
+                "model": "minecraft:block/stripped_log_large3_warped",
                 "x": 90,
                 "y": 90
             }
@@ -95,7 +95,7 @@
                 "axis": "x"
             },
             "apply": {
-                "model": "minecraft:block/log_large4_furled",
+                "model": "minecraft:block/stripped_log_large4_warped",
                 "x": 90,
                 "y": 90
             }
@@ -106,7 +106,7 @@
                 "axis": "z"
             },
             "apply": {
-                "model": "minecraft:block/furled_log_horizontal",
+                "model": "minecraft:block/stripped_warped_stem",
                 "x": 90
             }
         },
@@ -116,7 +116,7 @@
                 "axis": "z"
             },
             "apply": {
-                "model": "minecraft:block/log_large1_furled",
+                "model": "minecraft:block/stripped_log_large1_warped",
                 "x": 90
             }
         },
@@ -126,7 +126,7 @@
                 "axis": "z"
             },
             "apply": {
-                "model": "minecraft:block/log_large2_furled",
+                "model": "minecraft:block/stripped_log_large2_warped",
                 "x": 90
             }
         },
@@ -136,7 +136,7 @@
                 "axis": "z"
             },
             "apply": {
-                "model": "minecraft:block/log_large3_furled",
+                "model": "minecraft:block/stripped_log_large3_warped",
                 "x": 90
             }
         },
@@ -146,7 +146,7 @@
                 "axis": "z"
             },
             "apply": {
-                "model": "minecraft:block/log_large4_furled",
+                "model": "minecraft:block/stripped_log_large4_warped",
                 "x": 90
             }
         }

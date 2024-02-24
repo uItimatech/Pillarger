@@ -1,0 +1,10 @@
+{
+  "credit": "Made using Blockbench by ultimatech",
+  "parent": "block/log_large2",
+  "textures": {
+    "side1": "minecraft:block/stripped_jungle_log",
+    "side2": "pillarger:block/stripped_log_large_jungle",
+    "end": "pillarger:block/stripped_log_top_large2_jungle",
+    "particle": "pillarger:block/stripped_log_large_jungle"
+  }
+}

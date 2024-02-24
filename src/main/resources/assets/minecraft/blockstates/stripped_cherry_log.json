@@ -1,0 +1,154 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "variant": "0",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_cherry_log"
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large1_cherry"
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large2_cherry"
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large3_cherry"
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "y"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large4_cherry"
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_cherry_log",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large1_cherry",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large2_cherry",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large3_cherry",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "x"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large4_cherry",
+                "x": 90,
+                "y": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "0",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_cherry_log",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "1",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large1_cherry",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "2",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large2_cherry",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "3",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large3_cherry",
+                "x": 90
+            }
+        },
+        {
+            "when": {
+                "variant": "4",
+                "axis": "z"
+            },
+            "apply": {
+                "model": "minecraft:block/stripped_log_large4_cherry",
+                "x": 90
+            }
+        }
+    ]
+}
