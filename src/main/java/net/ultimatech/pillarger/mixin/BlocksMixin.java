@@ -34,7 +34,7 @@ public class BlocksMixin {
      * @reason log blocks now allow for connected textures
      */
     @Overwrite
-    public static Block createLogBlock(MapColor topMapColor, MapColor sideMapColor) {
+    public static PillarBlock createLogBlock(MapColor topMapColor, MapColor sideMapColor) {
         return new ConnectedLargePillarBlock(
                 AbstractBlock.Settings.create()
                         .mapColor(state -> state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor)
@@ -50,14 +50,9 @@ public class BlocksMixin {
      * @reason log blocks now allow for connected textures
      */
     @Overwrite
-    public static Block createLogBlock(MapColor topMapColor, MapColor sideMapColor, BlockSoundGroup soundGroup) {
+    public static Block createNetherStemBlock(MapColor mapColor) {
         return new ConnectedLargePillarBlock(
-                AbstractBlock.Settings.create()
-                        .mapColor(state -> state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor)
-                        .instrument(Instrument.BASS)
-                        .strength(2.0F)
-                        .sounds(soundGroup)
-                        .burnable()
+                AbstractBlock.Settings.create().mapColor(state -> mapColor).instrument(Instrument.BASS).strength(2.0F).sounds(BlockSoundGroup.NETHER_STEM)
         );
     }
 
@@ -66,9 +61,9 @@ public class BlocksMixin {
      * @reason log blocks now allow for connected textures
      */
     @Overwrite
-    public static Block createNetherStemBlock(MapColor mapColor) {
-        return new ConnectedLargePillarBlock(
-                AbstractBlock.Settings.create().mapColor(state -> mapColor).instrument(Instrument.BASS).strength(2.0F).sounds(BlockSoundGroup.NETHER_STEM)
-        );
+    public static PillarBlock createBambooBlock(MapColor topMapColor, MapColor sideMapColor, BlockSoundGroup soundGroup) {
+        return new ConnectedLargePillarBlock(AbstractBlock.Settings.create().mapColor((state) -> {
+            return state.get(PillarBlock.AXIS) == Direction.Axis.Y ? topMapColor : sideMapColor;
+        }).instrument(Instrument.BASS).strength(2.0F).sounds(soundGroup).burnable());
     }
 }
